@@ -1,0 +1,4 @@
+- name: Start service ssh, if not started
+  service:
+    name: ssh
+    state: started
