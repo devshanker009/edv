@@ -2,3 +2,8 @@
   service:
     name: ssh
     state: started
+    
+    - name: Stop service ssh, if started
+  service:
+    name: ssh
+    state: stopped
