@@ -1,9 +1,9 @@
 - name: Start service ssh, if not started
   service:
-    name: ssh
+    name: sshd
     state: started
     
     - name: Stop service ssh, if started
   service:
-    name: ssh
+    name: sshd
     state: stopped
